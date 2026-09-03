@@ -1,4 +1,4 @@
-import java.util.Properties
+import Properties
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
@@ -18,7 +18,7 @@ android {
     signingConfigs {
         create("release") {
             val propsFile = rootProject.file("signing/release.properties")
-            val props = java.util.Properties().apply { if (propsFile.isFile) propsFile.inputStream().use(::load) }
+            val props = Properties().apply { if (propsFile.isFile) propsFile.inputStream().use(::load) }
             val path = providers.environmentVariable("KEYSTORE_PATH").orNull ?: props.getProperty("storeFile")
             val storePass = providers.environmentVariable("STORE_PASSWORD").orNull ?: props.getProperty("storePassword")
             val alias = providers.environmentVariable("KEY_ALIAS").orNull ?: props.getProperty("keyAlias")
@@ -39,7 +39,7 @@ android {
     }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     buildFeatures { compose = true; buildConfig = true }
-    val localProps = java.util.Properties().apply { val f = rootProject.file("local.properties"); if (f.isFile) f.inputStream().use(::load) }
+    val localProps = Properties().apply { val f = rootProject.file("local.properties"); if (f.isFile) f.inputStream().use(::load) }
     val iapKey = localProps.getProperty("focusedMindHuaweiIapPublicKey", "")
     defaultConfig {
         buildConfigField("String", "HUAWEI_IAP_PUBLIC_KEY", "\"${iapKey.replace("\\", "\\\\").replace("\"", "\\\"")}\"")
