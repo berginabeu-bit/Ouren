@@ -18,7 +18,7 @@ jobs:
         distribution: 'temurin'
 
     - name: Aceitar Licencas SDK
-      run: yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses
+      run: yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
 
     - name: Permissao Executavel Gradlew
       run: chmod +x gradlew
