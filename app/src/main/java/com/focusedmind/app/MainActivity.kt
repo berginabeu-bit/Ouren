@@ -1,7 +1,7 @@
-import com.google.android.material.progressindicator.LinearProgressIndicator
 package com.focusedmind.app
 
 import com.google.android.material.progressindicator.LinearProgressIndicator
+
 
 import android.app.AlarmManager
 import android.app.DatePickerDialog
