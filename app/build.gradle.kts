@@ -69,4 +69,3 @@ tasks.matching { it.name == "assembleRelease" || it.name == "bundleRelease" }.co
             "Release signing is not configured. Set KEYSTORE_PATH/STORE_PASSWORD/KEY_ALIAS/KEY_PASSWORD or signing/release.properties."
         }
     }
-}
