@@ -1,3 +1,4 @@
+import com.google.android.material.progressindicator.LinearProgressIndicator
 package com.focusedmind.app
 
 import android.app.AlarmManager
