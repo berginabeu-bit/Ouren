@@ -7,11 +7,11 @@ plugins {
 
 android {
     namespace = "com.focusedmind.app"
-    compileSdk = 36
+    compileSdk = 37
     defaultConfig {
         applicationId = "com.focusedmind.app"
         minSdk = 24
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 20
         versionName = "4.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
