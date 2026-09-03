@@ -1,0 +1,34 @@
+{
+  "version": "3.0.0",
+  "supported_languages": [
+    "en",
+    "pt-BR",
+    "pt-PT",
+    "es",
+    "zh-CN",
+    "zh-HK",
+    "ar",
+    "fr",
+    "de",
+    "it",
+    "ja",
+    "ko",
+    "ms",
+    "ru",
+    "pl",
+    "tr"
+  ],
+  "reminders_per_language": 10000,
+  "total_localized_reminders": 160000,
+  "reminder_breakdown": {
+    "categories": 5,
+    "moments": 2,
+    "per_category_per_moment": 1000
+  },
+  "academic_per_language": 1400,
+  "total_academic_phrases": 22400,
+  "offline_core": true,
+  "online_services": [
+    "Huawei IAP / AppGallery"
+  ]
+}

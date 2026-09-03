@@ -1,0 +1,11 @@
+# Release checklist
+- [ ] Gradle clean
+- [ ] assembleRelease (not assembleDebug)
+- [ ] app/build/outputs/apk/release/app-release.apk exists and is non-empty
+- [ ] Install and test on a physical Android device
+- [ ] Test notifications with app closed/backgrounded/locked
+- [ ] Test reboot and future-alarm rescheduling
+- [ ] Test first-launch permission onboarding
+- [ ] Test XP, levels, streaks, achievements and persistence
+- [ ] Review Manifest/dependencies/security before AppGallery
+- [ ] Use a permanent developer-controlled signing key for publication

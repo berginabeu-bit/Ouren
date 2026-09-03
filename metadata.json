@@ -1,0 +1,26 @@
+{
+  "name": "Focused Mind",
+  "projectName": "BernaFocus",
+  "description": "Offline-first personal commitment system that helps the user act at the right moment.",
+  "version": "4.0.0",
+  "packageName": "com.focusedmind.app",
+  "targetSdk": 36,
+  "minSdk": 24,
+  "features": [
+    "Two reminder notifications only: T-10 and exact time",
+    "Five-minute silent response/expiry window",
+    "Ten-minute minimum lead time",
+    "Explicit recurrence",
+    "Offline-first local state",
+    "16 language variants",
+    "Huawei AppGallery non-consumable Premium architecture",
+    "Huawei product/receipt consistency validation",
+    "Release signing through secrets/local properties",
+    "Self-bootstrapping Gradle launcher for portable builds",
+    "CI builds run unit tests and Android lint",
+    "CI produces signed APK and AAB release artifacts",
+    "Huawei IAP public key can be injected by CI secret",
+    "Localized UI key parity across all 16 supported locales",
+    "Built-in commitment conflict awareness"
+  ]
+}

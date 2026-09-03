@@ -1,0 +1,47 @@
+{
+  "projectName": "Berna Focus",
+  "appName": "Focused Mind",
+  "package": "com.focusedmind.app",
+  "versionName": "2.3.0",
+  "versionCode": 9,
+  "notificationContract": [
+    "10_minutes_before",
+    "exact_time"
+  ],
+  "postCommitmentWindowMinutes": 5,
+  "minimumLeadMinutes": 10,
+  "premiumProducts": {
+    "focused_mind_important_event": "€7",
+    "focused_mind_academic_focus": "€10"
+  },
+  "supportedLanguages": [
+    "pt-BR",
+    "pt-PT",
+    "en",
+    "es",
+    "zh-CN",
+    "zh-HK",
+    "ar",
+    "fr",
+    "de",
+    "it",
+    "ja",
+    "ko",
+    "ms",
+    "ru",
+    "pl",
+    "tr"
+  ],
+  "releaseSigningEnv": [
+    "KEYSTORE_PATH",
+    "STORE_PASSWORD",
+    "KEY_ALIAS",
+    "KEY_PASSWORD"
+  ],
+  "githubSecrets": [
+    "KEYSTORE_BASE64",
+    "STORE_PASSWORD",
+    "KEY_ALIAS",
+    "KEY_PASSWORD"
+  ]
+}

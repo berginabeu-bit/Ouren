@@ -1,0 +1,3 @@
+# Copy to local.properties on the development machine.
+# The Huawei IAP public key is not a secret, but is app/account-specific.
+focusedMindHuaweiIapPublicKey=PASTE_OWNER_HUAWEI_IAP_PUBLIC_KEY_HERE

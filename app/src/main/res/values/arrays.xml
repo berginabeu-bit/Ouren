@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CATEGORY 1: DECISIONS (40 Phrases) -->
+    <string-array name="phrases_decisions">
+        <item>30 minutes until your crossroad. Indecision is the thief of time.</item>
+        <item>30 mins left. A wrong decision is better than no decision at all.</item>
+        <item>30 minutes remaining. Choose your path or the world will choose it.</item>
+        <item>Your future self is waiting for this choice in 30 minutes.</item>
+        <item>30 minutes until execution. Clear your mind, sharpen your resolve.</item>
+        <item>In 30 minutes, you define your trajectory. Do not flinch.</item>
+        <item>30 mins left. True leaders decide fast and change rarely.</item>
+        <item>Preparation ending in 30 minutes. Be ready to commit.</item>
+        <item>30 minutes until the scale tips. Focus on the ultimate outcome.</item>
+        <item>Stop overthinking. The countdown marks 30 minutes to action.</item>
+        <item>30 minutes to cut the noise. Your choice shapes reality.</item>
+        <item>In 30 minutes, hesitance dies. Action takes the wheel.</item>
+        <item>30 mins. The cost of delay is far higher than a mistake.</item>
+        <item>30 minutes until destiny demands an answer. Stand tall.</item>
+        <item>Decide with power in 30 minutes. No turning back.</item>
+        <item>30 minutes left to analyze. Then, pure execution.</item>
+        <item>Your legacy is built on tough choices. 30 minutes left.</item>
+        <item>30 minutes until you break the stagnation loop.</item>
+        <item>Courage begins with choices. 30 minutes left.</item>
+        <item>30 mins. Small choices build empires. Big choices sustain them.</item>
+        <item>Only 20 minutes left. Action cures fear. Decide and move.</item>
+        <item>20 minutes remaining. Do not let fear dictate your next move.</item>
+        <item>20 mins. Cut the options down to one. Focus on that.</item>
+        <item>In 20 minutes, you write history. Make it count.</item>
+        <item>20 minutes until the absolute deadline. No excuses accepted.</item>
+        <item>20 mins. Your focus determines your reality. Choose wisely.</item>
+        <item>In 20 minutes, turn your thoughts into concrete actions.</item>
+        <item>20 minutes left. The best way to predict the future is to create it.</item>
+        <item>20 mins. Stagnation is a silent killer. Move forward.</item>
+        <item>In 20 minutes, drop the dead weight of hesitation.</item>
+        <item>20 minutes to transform intent into absolute power.</item>
+        <item>20 mins. The window of opportunity is narrowing fast.</item>
+        <item>In 20 minutes, execute with clinical precision.</item>
+        <item>20 minutes left. Own your decisions, own your life.</item>
+        <item>20 mins. Excellence is not an act, it is a daily choice.</item>
+        <item>In 20 minutes, unleash your true productive potential.</item>
+        <item>20 minutes remaining. The hard choice is usually the right one.</item>
+        <item>20 mins. Stop planning, start doing.</item>
+        <item>In 20 minutes, break free from the comfort zone trap.</item>
+        <item>20 minutes left. Be relentless in your pursuit of progress.</item>
+    </string-array>
+
+    <!-- CATEGORY 2: TASKS (40 Phrases) -->
+    <string-array name="phrases_tasks">
+        <item>30 minutes until task initiation. Chop your mountain down.</item>
+        <item>30 mins left. Laziness is resting before you get tired.</item>
+        <item>30 minutes until labor begins. Amateurs wait for inspiration.</item>
+        <item>In 30 minutes, you attack the pile. Prepare your instruments.</item>
+        <item>30 minutes until deep execution. Clear your desk completely.</item>
+        <item>30 mins remaining. The beginning is the most important part.</item>
+        <item>In 30 minutes, performance takes over. Put your armor on.</item>
+        <item>30 minutes until relentless task delivery. No distractions.</item>
+        <item>30 mins left. Small daily steps lead to massive lifetime gains.</item>
+        <item>In 30 minutes, eliminate all friction. Focus on the core.</item>
+        <item>30 minutes to start building your momentum blocks.</item>
+        <item>30 mins. A year from now you may wish you had started today.</item>
+        <item>In 30 minutes, trade comfort for supreme achievement.</item>
+        <item>30 minutes left. Do what you have to do without hesitation.</item>
+        <item>30 mins remaining. Great jobs require systematic execution.</item>
+        <item>In 30 minutes, show absolute commitment to your craft.</item>
+        <item>30 minutes until efficiency reaches its peak state.</item>
+        <item>30 mins. The secret of getting ahead is getting started.</item>
+        <item>In 30 minutes, silence the inner critic and just produce.</item>
+        <item>30 minutes remaining. Focus on progress, not perfection.</item>
+        <item>20 minutes remaining. Action is the antidote to anxiety.</item>
+        <item>20 mins left. Done is better than perfect. Get ready.</item>
+        <item>20 minutes until the grind starts. Lock into your vision.</item>
+        <item>In 20 minutes, high velocity execution begins.</item>
+        <item>20 minutes remaining. The best time to act is right now.</item>
+        <item>20 mins left. Great output requires zero interruptions.</item>
+        <item>In 20 minutes, show the world your operational power.</item>
+        <item>20 minutes until you crush this block of work completely.</item>
+        <item>20 mins. Ordinary people think merely of spending time.</item>
+        <item>In 20 minutes, focus entirely on single-task efficiency.</item>
+        <item>20 minutes remaining. Small victories accumulate into triumphs.</item>
+        <item>20 mins left. Be stronger than your strongest lazy excuse.</item>
+        <item>In 20 minutes, push through the internal mental barrier.</item>
+        <item>20 minutes until you manifest your highest capability.</item>
+        <item>20 mins. Quality means doing it right when no one is looking.</item>
+        <item>In 20 minutes, enter the flow state with absolute power.</item>
+        <item>20 minutes remaining. You owe this effort to your future self.</item>
+        <item>20 mins left. Keep your eyes on the prize and execute.</item>
+        <item>In 20 minutes, leave procrastination in the dust.</item>
+        <item>20 minutes until you build momentum that cannot be stopped.</item>
+    </string-array>
+
+    <!-- CATEGORY 3: OUTINGS (40 Phrases) -->
+    <string-array name="phrases_outings">
+        <item>30 minutes until your social commitment. Honor your word.</item>
+        <item>30 mins left. Relationships thrive on absolute reliability.</item>
+        <item>30 minutes remaining. Show up, engage, and be present.</item>
+        <item>In 30 minutes, leave the digital world and connect live.</item>
+        <item>30 minutes until you build lasting social bonds.</item>
+        <item>30 mins left. A promise made must be a promise kept.</item>
+        <item>In 30 minutes, bring your best energy to your peers.</item>
+        <item>30 minutes until interaction. Cultivate your circle.</item>
+        <item>30 mins remaining. True connection requires active presence.</item>
+        <item>In 30 minutes, elevate your social ecosystem.</item>
+        <item>30 minutes left to prepare your social presence.</item>
+        <item>30 mins. Network is net worth. Show up with intent.</item>
+        <item>In 30 minutes, trade isolation for genuine community.</item>
+        <item>30 minutes remaining. Strong ties require constant effort.</item>
+        <item>30 mins left. Be the reliable rock your friends need.</item>
+        <item>In 30 minutes, enrich your life through real connection.</item>
+        <item>30 minutes until you expand your cultural horizons.</item>
+        <item>30 mins. Great interactions start with absolute punctuality.</item>
+        <item>In 30 minutes, show respect by being right on time.</item>
+        <item>30 minutes remaining. Social capital is built step by step.</item>
+        <item>20 minutes remaining. Punctuality is the soul of friendship.</item>
+        <item>20 mins left. Prepare to engage with maximum presence.</item>
+        <item>20 minutes until the meeting. Be sharp, be there.</item>
+        <item>In 20 minutes, demonstrate absolute social reliability.</item>
+        <item>20 minutes remaining. True power is keeping your word.</item>
+        <item>20 mins left. Nurture your relationships with active intent.</item>
+        <item>In 20 minutes, show up for the people who support you.</item>
+        <item>20 minutes until interaction. Step out of your comfort zone.</item>
+        <item>20 mins. Your physical presence cannot be duplicated.</item>
+        <item>In 20 minutes, bring true value to the conversation.</item>
+        <item>20 minutes remaining. Success includes your social circle.</item>
+        <item>20 mins left. Be character-driven: never cancel last minute.</item>
+        <item>In 20 minutes, create authentic human experiences.</item>
+        <item>20 minutes until you honor your social contract.</item>
+        <item>20 mins. Punctuality shows you value other people time.</item>
+        <item>In 20 minutes, strengthen your network actively.</item>
+        <item>20 minutes remaining. True influence is rooted in trust.</item>
+        <item>20 mins left. Show up with an open mind and high energy.</item>
+        <item>In 20 minutes, make a lasting positive impression.</item>
+        <item>20 minutes until you join your team. Stand out.</item>
+    </string-array>
+
+    <!-- CATEGORY 4: EVENTS (40 Phrases) -->
+    <string-array name="phrases_events">
+        <item>30 minutes until the event starts. Professionalism rules.</item>
+        <item>30 mins left. Big events require early and sharp alignment.</item>
+        <item>30 minutes remaining. The stage is set, prepare your mind.</item>
+        <item>In 30 minutes, you step into the official arena.</item>
+        <item>30 minutes until zero hour. Review your strategic goals.</item>
+        <item>30 mins left. If you are on time, you are late. Get ready.</item>
+        <item>In 30 minutes, maximize your strategic exposure.</item>
+        <item>30 minutes until kickoff. Eliminate secondary distractions.</item>
+        <item>30 mins remaining. Opportunities match your level of prep.</item>
+        <item>In 30 minutes, play to win on the official stage.</item>
+        <item>30 minutes left to align your resources for execution.</item>
+        <item>30 mins. A master arrives calm, prepared, and early.</item>
+        <item>In 30 minutes, turn strategic planning into live action.</item>
+        <item>30 minutes remaining. Elevate your presence at this event.</item>
+        <item>30 mins left. The world belongs to those who show up.</item>
+        <item>In 30 minutes, claim your spot at the leading edge.</item>
+        <item>30 minutes until the event test begins. Stay sharp.</item>
+        <item>30 mins. Punctuality seals your elite status.</item>
+        <item>In 30 minutes, display absolute structural discipline.</item>
+        <item>30 minutes remaining. The clock rewards the proactive.</item>
+        <item>20 minutes remaining. Punctuality is the calling card.</item>
+        <item>20 mins left. Lock down your location. The event is imminent.</item>
+        <item>20 minutes until start. Transition into maximum mode.</item>
+        <item>In 20 minutes, show absolute respect for the calendar.</item>
+        <item>20 minutes remaining. Amateurs delay, masters anticipate.</item>
+        <item>20 mins left. Clear your mind of background static noise.</item>
+        <item>In 20 minutes, execute with absolute poise and focus.</item>
+        <item>20 minutes until kickoff. Your window of victory opens.</item>
+        <item>20 mins. The premium choice is always absolute precision.</item>
+        <item>In 20 minutes, assume complete command of your task.</item>
+        <item>20 minutes remaining. Your future depends on showing up.</item>
+        <item>20 mins left. Build an ironclad aura of absolute reliability.</item>
+        <item>In 20 minutes, separate yourself from those who lag behind.</item>
+        <item>20 minutes until the milestone triggers. Be ruthless.</item>
+        <item>20 mins. Time is your most valuable asset. Protect it.</item>
+        <item>In 20 minutes, step onto the stage with total confidence.</item>
+        <item>20 minutes remaining. Excellence requires immediate attendance.</item>
+        <item>20 mins left. Let your presence speak of supreme discipline.</item>
+        <item>In 20 minutes, make a major step forward in your career.</item>
+        <item>20 minutes until the window locks. Fast execution needed.</item>
+    </string-array>
+
+    <!-- CATEGORY 5: STUDIES (40 Phrases) -->
+    <string-array name="phrases_studies">
+        <item>30 minutes until study block. Knowledge is power.</item>
+        <item>30 mins left. An investment in knowledge pays best interest.</item>
+        <item>30 minutes remaining. Clear your brain, feed your intellect.</item>
+        <item>In 30 minutes, you expand your cognitive boundaries.</item>
+        <item>30 minutes until deep cognitive absorption. Hide phones.</item>
+        <item>30 mins left. Today a reader, tomorrow a leader.</item>
+        <item>In 30 minutes, build the foundation of technical mastery.</item>
+        <item>30 minutes until intellect activation. Block out reality.</item>
+        <item>30 mins remaining. The roots of education are bitter.</item>
+        <item>In 30 minutes, focus entirely on academic scaling.</item>
+        <item>30 minutes left to prepare your study materials.</item>
+        <item>30 mins. Ignorance is expensive. Study with supreme fury.</item>
+        <item>In 30 minutes, trade cheap entertainment for deep wisdom.</item>
+        <item>30 minutes remaining. Discipline your mind through focus.</item>
+        <item>30 mins left. True power belongs to continuous learners.</item>
+        <item>In 30 minutes, sharp mental execution takes place.</item>
+        <item>30 minutes until your intellectual upgrade. No shortcuts.</item>
+        <item>30 mins. Genius is 1% inspiration and 99% sweat.</item>
+        <item>In 30 minutes, dedicate your focus to lifelong growth.</item>
+        <item>30 minutes remaining. Excellence in mind requires hard study.</item>
+        <item>20 minutes remaining. Concentration is the secret of power.</item>
+        <item>20 mins left. Prepare your notes. Learning is imminent.</item>
+        <item>20 minutes until brain upgrade. Eliminate visual friction.</item>
+        <item>In 20 minutes, expand your field of absolute expertise.</item>
+        <item>20 minutes remaining. Mastery requires lonely hours.</item>
+        <item>20 mins left. Read deeply, process fast, retain forever.</item>
+        <item>In 20 minutes, elevate your cognitive processing score.</item>
+        <item>20 minutes until research block. Lock into your goals.</item>
+        <item>20 mins. The expert in anything was once a beginner. Start.</item>
+        <item>In 20 minutes, separate yourself from superficial thinkers.</item>
+        <item>20 minutes remaining. Discipline your curiosity into power.</item>
+        <item>20 mins left. Your brain is a supercomputer. Program it.</item>
+        <item>In 20 minutes, dive into the mechanics of high level skill.</item>
+        <item>20 minutes until execution. Absolute academic focus.</item>
+        <item>20 mins. Focus entirely on single topic deep comprehension.</item>
+        <item>In 20 minutes, prove your dedication to true competence.</item>
+        <item>20 minutes remaining. Knowledge removes all internal doubt.</item>
+        <item>20 mins left. Push through the complex text. Win the block.</item>
+        <item>In 20 minutes, build a massive intellectual edge.</item>
+        <item>20 minutes until the study countdown ends. Be alert.</item>
+    </string-array>
+</resources>

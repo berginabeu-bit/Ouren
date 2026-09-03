@@ -1,0 +1,62 @@
+name: Android Release - AppGallery Ready
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: gradle
+      - uses: android-actions/setup-android@v3
+      - name: Accept Android SDK licenses
+        run: yes | sdkmanager --licenses >/dev/null || true
+      - name: Install Android SDK platform/build tools
+        run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.3.1'
+      - name: Prepare production signing
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+        run: |
+          test -n "$KEYSTORE_BASE64"
+          echo "$KEYSTORE_BASE64" | base64 --decode > release.keystore
+      - name: Inject Huawei IAP public key
+        env:
+          HUAWEI_IAP_PUBLIC_KEY: ${{ secrets.HUAWEI_IAP_PUBLIC_KEY }}
+          AGCONNECT_SERVICES_JSON_BASE64: ${{ secrets.AGCONNECT_SERVICES_JSON_BASE64 }}
+        run: |
+          : > local.properties
+          if [ -n "$HUAWEI_IAP_PUBLIC_KEY" ]; then
+            printf 'focusedMindHuaweiIapPublicKey=%s\n' "$HUAWEI_IAP_PUBLIC_KEY" >> local.properties
+          fi
+          if [ -n "$AGCONNECT_SERVICES_JSON_BASE64" ]; then
+            echo "$AGCONNECT_SERVICES_JSON_BASE64" | base64 --decode > app/agconnect-services.json
+          fi
+      - name: Validate localized content
+        run: python3 tools/localization_audit.py
+      - name: Build, test, lint and bundle
+        env:
+          KEYSTORE_PATH: release.keystore
+          STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: ./gradlew testReleaseUnitTest lintRelease assembleRelease bundleRelease --stacktrace
+      - name: Verify release APK
+        run: ./tools/verify_apk.sh app/build/outputs/apk/release/app-release.apk com.focusedmind.app
+      - name: Verify release signature
+        run: apksigner verify --verbose app/build/outputs/apk/release/app-release.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: berna-focus-appgallery-release
+          path: |
+            app/build/outputs/apk/release/app-release.apk
+            app/build/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
