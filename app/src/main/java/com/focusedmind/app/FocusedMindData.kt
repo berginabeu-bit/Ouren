@@ -2,20 +2,6 @@ package com.focusedmind.app
 
 import android.app.NotificationManager
 
-
-
-
-
-
-import android.content.Context
-import org.json.JSONArray
-import org.json.JSONObject
-import java.text.SimpleDateFormat
-import java.util.Calendar
-import java.util.Date
-import java.util.Locale
-import java.util.UUID
-
 /** Offline-first persistence and business rules for Focused Mind. */
 object FocusedMindStore {
     private const val PREFS = "focused_mind_store_v4"
